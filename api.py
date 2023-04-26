@@ -29,7 +29,7 @@ def upload(file: UploadFile = File(...)):
     now = datetime.now()
     dt = now.strftime("%d/%m/%Y %H:%M:%S")
 
-    return {"message": {"name": name, "Date-Time": dt, "lat": 13.0593, "long": 80.2337}, "status": "successful"}
+    return {"message": {"name": name, "Date-Time": dt, "lat":----, "long": ----}, "status": "successful"}
 
 def findPerson():
     img = cv2.imread('./input.jpg')
@@ -47,6 +47,6 @@ def findPerson():
 
 def get_className(classNo):
     if classNo == 0:
-        return "Shivani"
+        return "name1"
     elif classNo == 1:
-        return "Joyce"
+        return "name2"
